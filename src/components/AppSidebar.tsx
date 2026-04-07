@@ -1,4 +1,4 @@
-import { Home, Dumbbell, Brain, MessageCircle, User, Leaf } from "lucide-react";
+import { Home, Dumbbell, Brain, MessageCircle, User } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import {
@@ -30,8 +30,8 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="p-4">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg wellness-gradient-bg flex items-center justify-center">
-            <Leaf className="w-5 h-5 text-sidebar-primary-foreground" />
+          <div className="w-10 h-10 flex shrink-0 items-center justify-center rounded-lg bg-white/50 p-1">
+            <img src="/logo.png" alt="Quality Life" className="w-full h-full object-contain drop-shadow-md" />
           </div>
           {!collapsed && (
             <span className="font-display font-bold text-lg text-sidebar-foreground">
