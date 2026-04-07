@@ -1,4 +1,4 @@
-// Simple in-memory store for v1 (will migrate to Lovable Cloud later)
+// Simple in-memory store for v1
 import { useState, useCallback } from "react";
 
 export interface ModuleItem {

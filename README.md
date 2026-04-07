@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Quality Life App
 
-TODO: Document your project here
+Aplicativo de bem-estar e qualidade de vida.

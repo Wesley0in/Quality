@@ -40,7 +40,7 @@ export default function ChatPage() {
     setInput("");
     setIsLoading(true);
 
-    // Mock AI response (will be replaced with Lovable AI)
+    // Mock AI response (will be replaced with Groq AI)
     await new Promise((r) => setTimeout(r, 1200));
     const response = mockResponses[Math.floor(Math.random() * mockResponses.length)];
     setMessages((prev) => [...prev, { id: (Date.now() + 1).toString(), role: "assistant", content: response }]);
